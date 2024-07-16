@@ -300,7 +300,6 @@ header {
 
 .image-container {
     flex: 1 1 30%;
-    /* Adjust the percentage as needed */
     padding: 20px;
 }
 
@@ -556,4 +555,75 @@ header {
 }
 .news-box:hover .nimgcontainer img {
     transform: scale(0.9) translateX(-30%); 
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgba(227, 242, 252, 0.74);
+    padding: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+/* .qlink, .findus, .who-we {
+    flex-grow: 1;
+    min-width: 200px; /
+} */
+
+.qlink{
+    width: 30%;
+}
+.findus{
+    width:30%;
+}
+.who-we{
+    width: 40%;
+}
+.qlink {
+    margin-right: 40px;
+}
+
+.findus {
+    margin-right: 40px;
+    
+}
+
+.who-we {
+    text-align: left;
+}
+
+.qlink h3, .findus h3, .who-we h3 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #222c40;
+    margin-bottom: 10px;
+}
+
+.qlink ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.qlink ul li {
+    line-height: 2.4;
+    font-weight: 100;
+    font-size: 12px;
+    color: #222c40;
+}
+
+.findus p, .who-we p {
+    line-height: 2.4;
+    padding-bottom: 15px;
+    font-weight: 100;
+    font-size: 12px;
+    color: #222c40;
+    margin: 0; 
 }
