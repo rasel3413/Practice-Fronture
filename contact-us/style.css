@@ -1,0 +1,157 @@
+.top1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/landing.webp');
+    background-size: cover;
+
+    background-position: center;
+    /* filter: blur(5px);  */
+    z-index: 1;
+}
+
+.text-container1 {
+    text-align: center;
+    width: 100%;
+    display: flex;
+
+
+    flex-wrap: wrap;
+
+}
+
+.text-container1 p {
+    color: rgb(100, 99, 99);
+    margin: 20px;
+    margin-top: 0px;
+    line-height: 1.6;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.contact1 {
+    flex: 1;
+    line-height: 1.7;
+    color: #253646;
+
+}
+
+
+
+form {
+    margin-left: 20px;
+    height: auto;
+    width: 100%;
+    background-color: #f3f7ff;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+
+label {
+    margin-left: 17px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    width: 90%;
+    height: 50px;
+    border: 2px solid rgba(117, 113, 113, 0.651);
+    border-radius: 6px;
+    outline: none;
+    margin: 15px 15px 15px 17px;
+    /* Added margin for uniform spacing */
+    font-size: 20px;
+    display: block;
+    /* Ensures each input starts on a new line */
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    /* Adjusted height for textarea */
+}
+
+button {
+    width: 92%;
+    height: 50px;
+    background-color: #2f3f50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: 15px 15px 15px 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #253646;
+    /* Slightly darker on hover */
+}
+
+.contact2 {
+  
+    color: #253646;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.contact-box {
+    flex: 2;
+    
+    background-color: #f3f7ff;
+    width: 80%;
+    margin: 20px;
+    margin-top: 0;
+    height: 0px;
+    overflow: hidden;
+}
+.contact-box-img {
+    flex: 2;
+    
+    background-color: #f3f7ff;
+    width: 80%;
+    height:auto;
+    margin: 20px;
+  
+    
+}
+.contact-box i {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #454c53d3;
+    margin-bottom: 10px;
+}
+.contact-box h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #454c53d3;
+}
+.contact-box p {
+    font-size: 16px;
+    color: #454c53d3;
+}

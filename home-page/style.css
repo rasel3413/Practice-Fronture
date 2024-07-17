@@ -532,6 +532,7 @@ header {
     height: 70%; 
     overflow: hidden; 
     position: relative;
+    
 }
 
 .nimgcontainer img {
@@ -564,9 +565,13 @@ footer {
     padding: 50px;
     display: flex;
     justify-content: center; 
+    margin-top: 40px;
+    flex-direction: column;
+
 }
 
 .footer1 {
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -626,4 +631,25 @@ footer {
     font-size: 12px;
     color: #222c40;
     margin: 0; 
+}
+.footer2{
+    color: #222c40;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #3498db;
+    border-radius: 50%;
+    color: #3498db;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
